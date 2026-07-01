@@ -161,9 +161,9 @@ SELECT
          (SELECT COUNT(*) FROM sales_cleaned)) * 100, 2
     ) as discount_quality_percent;
 
--- ============================================
+-- ===========================================
 -- STEP 4: EXTRACT METRICS FOR DASHBOARD
--- ============================================
+-- ===========================================
 
 -- Revenue by Region
 SELECT 
